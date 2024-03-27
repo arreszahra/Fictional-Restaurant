@@ -1,0 +1,54 @@
+*{
+    margin-bottom: 5px;
+}
+.navbar{
+    display: flex;
+    flex-direction:column;
+    
+
+}
+.img {
+width: 100%;
+    position: relative;
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    margin-left: 60%;
+    margin-right:20%;
+    margin-top: 10%;
+    translate: 800%;
+    
+}
+h1{
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 30%;
+    top: 50% ;
+   display: flex;
+ align-self: center;
+
+}
+.h1{
+    display:block ;
+}
+.Menu{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+}
+.Main{
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+}
+.container text-center{
+    display: grid;
+    grid-template-columns: 400px 900px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
